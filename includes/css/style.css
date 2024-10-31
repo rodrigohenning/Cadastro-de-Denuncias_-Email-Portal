@@ -1,0 +1,767 @@
+@charset "utf-8";
+/* CSS Document */
+/*RESET*/
+body{overflow-x: hidden;}
+.fundoPerguntas{
+background-color:#fff;
+margin-top:30px;
+}
+.unidade{}
+
+
+
+ul.print{
+   float:none !important;
+}
+
+
+.abaEnquadramento{background: url(../imagens/Layout-interna-Edu-Ambiental.png) no-repeat;}
+
+
+label.juncao{}
+.Assinatura{display:none;}
+.noticiaDestaque{color: #fff;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 20px;
+padding-top: 5px;
+}
+
+.glyphicon-busca{background:url(../imagens/31.png) no-repeat;}
+
+
+*{border:0;margin:0;padding:0;text-decoration:none !important;font-family: 'Lato', sans-serif; list-style:none}
+body{
+background:url(../imagens/bg.jpg) no-repeat; width:100%; background-size:100%
+
+	}
+.chamada-destaque{
+width: 410px;
+height: 70px;
+position: relative;
+top: -70px;
+background-color: rgba(0,102,0,0.7);
+}
+.titulo-edAmb{
+color:#006600;
+font-size:20px;
+font-weight:bold;
+
+}
+.fundo-accordion{float: right;
+width: 320px;
+height: 314px;
+margin-top: -13px;
+background-color: #f2f2f2;}
+.separador-noticias{
+width: 310px;
+height: 2px;
+background-color: #fff;
+position: relative;
+z-index: 2;
+}
+.controlador-geral{
+width: 1175px;
+margin: 20px auto;
+
+}
+.ui-accordion-header-active{
+}
+.conteudo-geral{
+	width:1174px;
+	margin: 0 auto;
+	
+	
+	}
+ul.noticias_controleLista li{display:inline}
+.inline1{display: inline;margin-right: 55px;float: left;}.margintopo{margin-top: 25px;color: #fff;font-size: 20px;border-bottom: 1px #fff solid;
+padding-bottom: 7px;font-size: 20px !important;}		
+.topo{
+	height: 64px;
+	background-image:url(../imagens/menu.jpg);
+	background-repeat:repeat-x;
+
+	}
+.segundo-menu{
+	height: 40px;
+	background-color:#fff;
+	}	.redes-sociais{ width:117px; height:30px;float: left;margin-top: 5px !important; }	
+.topoCompleto{
+
+	z-index: 1;
+	}
+.topoInterno{
+	width:1174px;
+	margin:0 auto;
+	height: 85px;
+	
+	}	
+	.logoTipo{
+		float:left;
+		width:372px;
+		height:75px;
+		margin-top: 5px;
+		background-image:url(../imagens/logo_IMAC.png);
+		}
+		.logoTipo-Estado{
+		float:right;
+		width:216px;
+		height:90px;
+			
+			}
+.menuInterno{
+	width:1174px;
+	margin:0 auto;
+
+	}
+.menu{
+color:#fff;
+position:relative;
+z-index:99
+	}
+.foto-noticias{
+	width: 410px;
+	margin-top: 15px;
+	float: left;
+height: 272px;
+	margin-left: 10px;
+	
+	}	
+.inline-menu{
+	float:left;
+	padding:20px 20px 25px 20px;
+	}	
+
+.barras-separacao{
+	height:26px;
+	width: 1px;
+	margin-top: 20px !important;
+	background-color:#fff;
+	float:left;
+	
+	}
+.barras-separacao2{height:26px;
+	width: 1px;
+	margin-top: 8px !important;
+	background-color:#fff;
+	float:left;}	
+.barras-separacao-after{
+height: 64px;
+width: 1px;
+/* margin-top: -76px !important; */
+margin-left: 4px;
+background-color: #fff;
+float: left;
+margin-left: 154px;
+	
+	}
+.barras-separacao-aftertwo{height: 64px;
+width: 1px;
+position: absolute;
+top: 0px;
+left: 261px;
+float: left;
+background-color: #fff;}	
+/*CONTEUDO*/								
+.wireGeral{
+	float: left;
+	width:399px;
+	height: 1034px;
+	margin-right: 5px;
+	background:url(../imagens/servicosEsquerda.png) no-repeat;
+	
+	
+	
+	}
+.resposta_botaoPesquisa{ }
+.pesquisa{float: left;}	
+.wireGeral-servicos{
+margin-left: 98px;
+margin-top: 10px;
+	font-size:25px;
+	}	
+.menu-servicos-wireGeral{
+	margin-top: 15px;
+width: 380px;
+margin-left: 10px;
+	}
+.menu-servicos-wireGeral-topicos{
+	font-size: 17px;
+background-color: #fff;
+padding: 17px;
+}
+a p.menu-servicos-wireGeral-topicos:hover{background-color:#006600;color:#fff;}
+
+
+.menu-servicos-wireGeral-topicos1{
+	font-size: 17px;
+padding: 17px;
+}	
+.separador-de-servicos{
+	width:350px;
+	margin-left:15px;
+	height: 1px;
+	background-color:#006600;
+	
+	}		
+.titulos-page{
+	color: #006600;
+	font-size: 25px; 
+      
+        
+
+}
+.titulo-noticias{color: #006600;
+background-color:#f2f2f2;
+font-size: 15px;position: relative;
+cursor: pointer;
+padding: 6px 14px 5px 10px;
+font-weight:bold;
+
+}
+#accordion{
+position: relative;
+background-color: #fff;
+margin-top: 20px;
+}
+.chamada-noticias{
+padding: 5px;
+text-align: justify;
+padding-left: 20px;
+font-size: 14px;position: relative;
+background-color:#f2f2f2;
+border-bottom: 1px #fff solid;
+
+	}
+.ui-accordion-content{display: none;
+}	
+.noticias-Rotativas{
+width: 429px;
+height: 170px;
+float: right;
+margin-top: 15px;
+margin-right: 5px;
+background-color: #fff;
+	
+	}	
+.topicos-noticias{
+	color: #006600;
+width: 400px;
+float: left;
+font-size: 18px;
+}
+.wire-frame-edAmbiental{
+margin-left: 63px;
+margin-top: 17px;
+margin-bottom: -4px;
+	
+	}		
+.separador-topicos-noticias{
+	height: 1px;
+width: 400px;
+margin-left: 15px;
+background-color: #666;
+	}
+.ed-amb-geral{
+	width: 750px;
+	height: 280px;
+	margin-left: 10px;
+	margin-top: 20px;
+	}	
+.imagen-edAmb{
+	width: 410px;
+	height: 280px;
+	float: left;
+	
+	}		
+.botoes-menu-servicos{margin-left: 10px;
+width: 380px;}
+.botao-padrao{width:314px;height:71px;margin: 10px auto;background-image:url(../imagens/icons/botao.png);margin-bottom:12px;}
+.botao-padrao:hover{background-image:url(../imagens/icons/botao2.png);cursor:pointer}
+.box-direita{ width: 315px;
+height: 280px;
+margin-left: 425px;  }
+.box-fotos{
+	width: 325px;
+	height: 280px;
+	float: left;
+}
+f.box-informacao{width: 195px;
+height: 280px;
+float: left;
+margin-left: 5px;}
+.foto{
+	margin-bottom: 20px;
+	float:left
+	}
+.chamada-edAmb{
+font-size: 13px;
+margin-top: 10px;
+color: #006600;
+margin-bottom: 25px;
+margin-left: 5px;
+float: left;
+width: 300px;
+}
+.TituloPerguntas{
+	color: #666666;
+font-size: 20px;
+margin-left: 60px;
+margin-top: 17px;
+margin-bottom: 10px;
+	}
+
+.icone-const{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-const.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+.icone-rural{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-rural.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+.icone-hidricos{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-hidri.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+.icone-Florestal{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-floresta.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+.icone-industria{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-indust.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+.icone-indus-servicos{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-industria.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+
+.icone-fauna{width: 57px;float:left;background-image:url(../imagens/icons/menu/onca-ico.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+
+.icone-boleto{width: 60px;float:left;background-image:url(../imagens/icons/menu/icon-boleto.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+
+.icone-Trans{width: 60px;float:left;background-image:url(../imagens/icons/menu/1404941313_DAF_Girder_Truck.png);
+height: 59px;margin-left: 8px;
+margin-top: 7px; }
+.titulo-botao-padrao{margin-top: 29px;
+margin-left: 5px;
+float: left;
+font-size: 18px;}
+	
+.wireGeral-noticias{float: left;
+width: 768px;
+height: 346px;
+background: url(../imagens/noticias.png) no-repeat;
+border-bottom: 25px solid #060;
+}
+.wireGeral-noticias-titu{
+margin-left: 63px;
+float: left;
+margin-top: 10px;
+	}	
+.noticias-conteudo{width: 758px;
+height: 300px;
+margin-top: 45px;
+margin-left: 10px; }	
+.wireGeral-ambiental{float: left;
+width: 768px;
+height: 340px;
+background: url(../imagens/edAmbiental.png) no-repeat;
+border-bottom: 25px solid #060;}			
+.wireGeral-box1{
+	width:378px;
+	height:263px;
+	background-color:#fff;
+	margin-right:13px;
+	float:left;
+	margin-top: 10px;
+	border-bottom: 25px solid #060;
+	
+	}	
+.wireGeral-box2{
+	width:378px;
+	background-image:url(../imagens/povo.jpg);
+	height:287px;
+	float:left;
+	margin-top: 10px;
+	}	
+
+.wireGeral-1{
+	width:378px;
+	height:263px;
+	margin-right:13px;
+	float:left;
+	margin-top: 10px;
+	
+	}	
+.wireGeral-2{
+	width:378px;
+	height:287px;
+	float:left;
+	margin-top: 10px;
+	}	
+
+.geral-icon{
+position: absolute;
+width: 30px;
+height: 30px;
+left: 1040px;
+top: 102px;
+}	
+/*Denuncia*/
+.conteudo-Denuncia{background:url(../imagens/internas_Quem_Somos-v4.png) no-repeat;
+width: 900px;
+height: 50px;
+margin: 20px auto;
+/* float: left; */
+/* margin-left: 390px; */
+position: relative;
+
+}
+.conteudo-Denuncia{
+
+}
+.formularioDeDenuncia{
+width: 800px;
+margin: 13px auto;
+background-color: #fff;
+float: left;
+padding: 50px;
+border-bottom:1px solid #ccc;
+border-left:1px solid #ccc;
+border-right:1px solid #ccc;
+}
+.tituloDenunciaPage{
+font-size: 25px;
+color: #006600;
+margin-left: 110px;
+position: relative;
+text-transform: uppercase;
+top: 9px;
+}
+.DenunciaPage{width: 300px;}
+.separador-formulariosDenuncia{
+float: left;
+}
+.informacoesDenuncia{float:left}
+
+
+
+
+
+
+
+
+
+/*Fale Conosco*/	
+			
+.formularioDeContato{
+	float:left;
+	margin-left: 70px;
+margin-top: 70px;
+	
+	}	
+.bordaFix{border:1px #000000 solid;}			
+.separador-formularios{width: 1px;
+height: 600px;
+background-color: #ccc;
+float: left;
+margin-left: 70px;margin-top: 40px; }		
+
+.informacoesContato{
+	width: 470px;
+	margin-top: 45px;
+margin-left: 59px;
+float: left;
+	}	
+			
+			
+			
+			
+			
+			
+			
+			
+.rodape{margin-top:70px;
+
+	border-top:#003300 5px solid;
+float:left;
+	}
+	.menu-rodape-servicos{
+position: relative;
+color: #fff;
+font-size: 12px;
+		width: 1174px;
+margin: 0 auto;
+		}
+	
+	
+	.primeira-parte{		
+		background-color:#006600;
+		height: 320px;
+		}
+		.segunda-parte{
+			background-color:#003300;
+						border-top:#669966 2px solid;
+			border-bottom:#669966 2px solid;
+			height:191px;
+		}.rodape-segunda-pt{margin:0 auto;width: 1165px;}.espassamento-rodape{margin-right: 24px;}.espassamento-rodape-topo{margin-top: 30px;}
+		
+		.terceira-parte{
+			background-color:#006600;
+
+			height:153px;
+		}.texto-marca{float: left;font-family: Arial, Helvetica, sans-serif;font-size: 50px;font-style: italic;font-weight: bold;color: #fff;}.texto-marca-descricao{font-family:Arial, Helvetica, sans-serif;font-size: 16px;width: 168px;float: left;color: #fff;margin-top: 49px;margin-right: 20px;margin-left: 20px;}.divisor-rodape{float: left;
+width: 2px;
+height: 72px;
+background-color: #fff;
+position: relative;
+top: 29px;}.informacoes-end{width: 200px;
+float: left;
+color: #fff;
+margin-top: 25px;
+margin-left: 30px;}
+		
+		.quarta-parte{
+			background-color:#003300;
+			height:47px;
+		}.centro-rodape{width:1174px;margin:0px auto;}.topo-texto{margin-top:10px;}.centro-rodape-interno{ width: 600px;margin:0 auto;}
+		.menu-rodape{width: 1175px;
+margin: 0 auto;}
+		
+		
+		.active{background-color: #f2f2f2;}
+.verMais{float: left;
+color: #fff;
+position: relative;
+left: 660px;
+top: 16px;
+text-decoration: underline !important;}
+.verMais a{
+	color: #fff;
+	}
+.verMais2{float: left;
+text-decoration: underline !important;
+left: 675px;
+position: relative;
+top: 7px;}	
+.verMais2 a{color: #fff;}
+.verMais3 {float: left;
+text-decoration: underline !important;
+left: 290px;
+position: relative;
+top: 49px;}
+.verMais3 a{color: #fff;}
+.conteudo-legislacao{
+		margin:20px auto;
+		width:1194px;
+		margin-bottom:20px;
+		background:url(../imagens/legislacao-box.png) no-repeat;
+	}
+	.box{float: left;width: 336px;
+height: 304px;
+float: left;
+
+margin-top: 60px;
+margin-left: 50px;}
+.legislacao-titulo{
+	margin-left: 106px;
+position: relative;
+top: 6px;
+	}
+	.leis{margin-top: 40px;
+margin-left: 38px;}
+.informacoes-Box{width: 285px;
+margin-left: 38px;
+margin-top: 10px;font-size:14px;}
+.separador-box-legislacao{width:1px;height:304px; background-color:#cccccc;float: left;
+position: relative;
+left: 23px;
+top: 61px;}
+.conteudo-faleConosco{ background:url(../imagens/faleConosco.png) no-repeat; width: 1194px;
+height: 760px;
+margin: 20px auto;
+left: 50%;
+position: relative;
+margin-left: -597px;
+float: left;}
+.TitulofaleConosco{margin-left: 119px;
+position: relative;
+top: 8px;
+margin-top: 10px;}
+
+#perguntas_principal{
+margin: 0 auto;
+width:1194px;
+height: 650px;
+
+	}
+	
+.perguntas_institucional{ background:url(/assets/versite/imagens/internas_Quem_Somos-v4.png) no-repeat;
+margin-top:10px;
+width:1194px;
+height:519px;
+float:left;
+	} 
+
+.perguntas_organograma{ background:url(imagens/bg-imagen/internas_Quem_Somos-v4.png) no-repeat;
+margin-top:10px;
+width:1194px;
+height:519px;
+float:left;
+	}
+
+.perguntas_unidades{ background:url(imagens/bg-imagen/internas_Quem_Somos-v4.png) no-repeat;
+margin-top:10px;
+width:1194px;
+height:519px;
+float:left;
+}
+
+.perguntas_titulop{color: #006600;
+float: left;
+left: 234px;
+margin-top: -20px;
+margin-left: 62px;
+top: 60px;
+font-size: 18px;
+
+
+}
+
+.perguntas_boxInstitucional{ width: 900px;
+height: 424px;
+float: left;
+margin-top: 63px;
+margin-left: 168px;
+	
+	}
+	
+.perguntas_boxInstitucional2{ width:498px;
+height:448px;
+float:left;
+margin-top: 47px;
+margin-left: 30px;		
+	}
+	
+.perguntas_boxOrganograma{ float:left;
+margin-top: 60px;
+
+margin-left: 49px;
+	
+	}
+	
+.perguntas_fotoUnidade{ float:left;
+margin-top: 77px;
+margin-left: 62px;	
+	}
+	
+.perguntas_fotoUnidade2{float:left;
+float: left;
+margin-top: 37px;
+margin-left: 62px;
+	}
+	
+.perguntas_unidadesTexto{ float:left;
+margin-top: 10px;
+margin-top: -80px;
+margin-left: 352px;
+margin-right: 37px;
+	
+   }
+	
+.perguntas_unidadesTexto2{
+float:left;
+margin-top: -217px;
+margin-top: -83px;
+margin-left: 352px;
+margin-right: 37px;
+	
+   }	
+   
+.perguntas_negrito{
+font-weight:bold;	
+	
+	
+	}
+
+.resultadoDaPesquisa{
+     width: 1024px;
+     margin:0 auto;
+margin-bottom: 70px;
+}
+.divisaoPesquisa{
+     background:url(/assets/versite/imagens/internas_Retorno_pesquisa-v1.png) no-repeat; 
+
+}
+.sisea-paging{margin-left: 790px;padding-bottom: 10px;padding-top: 10px;}
+.divisaoPesquisa h2{
+      height: 30px;
+      font-weight:bold;
+      color:#006600;
+
+}
+.sisea-results{
+border-bottom: 1px #ccc solid;
+padding-bottom: 10px;
+padding-top: 10px;
+
+}
+.sisea-results-list{
+padding-bottom: 20px;
+
+}
+.sisea-result{
+      color:#999;
+border-bottom: 1px #ccc solid;
+padding-bottom: 25px;
+}
+.sisea-result h3{
+      color:#006600;
+}
+.sisea-result h3 a{
+      color:#006600;
+}
+.internoPesquisa{
+background-color: #fff;
+position: relative;
+padding: 40px;
+}
+
+
+/*Fomularios*/
+
+.tamanhoCampo{
+	width: 60px;
+height: 30px !important;
+margin-top: 17px;
+margin-bottom: 17px !important;
+	
+	}
+.color{color:#fff;border-left: #fff solid 1px;border-right: 1px #fff solid;}	
+.border{border-left:solid 1px #fff}
+.controladora-deTamanhoTabela{ width:1024px;margin:0 auto}
+.linhaSeparadoraDeMenu{background-color:#006600;height:2px;}
+.size-titulo{ font-size:18px; }
+.bold{font-weight:bold}
+table,tr,td
+{
+
+}
+</style>
+<style>
+table,th,td
+{
+
+border-collapse:collapse
+}
+th,td
+{
+padding:3px;
+}
+.tituto_fauna{
+color: #006600;
+left: 165px;
+margin-top: 10px;
+font-size: 25px;
+position: relative;
+float: left;
+}
